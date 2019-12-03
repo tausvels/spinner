@@ -5,5 +5,5 @@ for(let i = 0; i < 10; i++){
     setTimeout(() => {
         process.stdout.write(char[i]);
     }, timeOut);
-    timeout += 200;
+    timeOut += 200;
 }
